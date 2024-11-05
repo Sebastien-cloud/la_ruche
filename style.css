@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=WindSong:wght@400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', 'sans serif';
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{ /*annule les puces des listes*/
+    list-style-type: none;
+}
+
+.flex{ /*permet "d'annuler" le block pour pouvoir modifier les elements*/
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.spaceBetween{ /* espace entre les boxs,elements*/
+    justify-content: space-between;
+}
+
+.alignCenter{
+    align-items: center;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.bgYellow{
+    background-color: #F3C827;
+}
+
+.container{
+    /*background-color: red*/
+    max-width: 1000px; /*largeur max que l'element ne depassera pas*/
+    margin: auto;
+    width: 100%;
+}
+
+/* HEADER*/
+
+header{
+    /*background-color: aqua;*/
+    padding: 15px;
+}
+
+.navHeader{
+   /* background-color: bisque;*/
+    width: 50%;
+}
+
+.panier{
+    color: #F3C827;
+    font-size: 30px;
+}
+
+/* HERO*/
+
+.hero{
+    height: 100vh;
+}
+
+.hero h2{
+    font-family: "WindSong", cursive;
+    font-size: 130px;
+    font-weight: 500;
+}
+
+h1{
+    font-size: 32px;
+}
+
+.btn{
+    background-color: #f66909;
+    border-radius: 4px;
+    padding: 10px;
+    color: white;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+/* SECTION ENGAGEMENT*/
+
+.engagement{
+    width: 50%;
+}
