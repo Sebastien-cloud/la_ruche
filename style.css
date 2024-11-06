@@ -17,17 +17,17 @@ li{ /*annule les puces des listes*/
     list-style-type: none;
 }
 
-.flex{ /*permet "d'annuler" le block pour pouvoir modifier les elements*/
+.flex{ /*permet "d'annuler" le block pour pouvoir modifier les elements( mettre les elements côte à côte*/
     display:flex;
     flex-wrap: wrap;
 }
 
-.spaceBetween{ /* espace entre les boxs,elements*/
+.spaceBetween{ /* espace entre elements*/
     justify-content: space-between;
 }
 
 .alignCenter{
-    align-items: center;
+    align-items: center;/* centrer verticalement*/
 }
 
 .bold{
@@ -39,8 +39,8 @@ li{ /*annule les puces des listes*/
 }
 
 .container{
-    background-color: red;
-    max-width: 1000px; /*largeur max que l'element ne depassera pas*/
+    /*background-color: red*/
+    max-width: 1000px; /*largeur max que l'element ne depassera pas + centrer au milieu*/
     margin: auto;
     width: 100%;
 }
@@ -89,13 +89,21 @@ h1{
 
 /* SECTION ENGAGEMENT*/
 
-.titre{
-    width: 50%;
-    background-color:green;
+.container{
+    /*background-color: red*/
+    max-width: 1000px; /*largeur max que l'element ne depassera pas*/
+    margin: auto;
+    width: 100%;
 }
 
-.sectionEngagement{
-    display: flex;
-    width: 100%;
-    background-color: aquamarine;
+
+.widthP{
+    width: 45%; /*largeur paragraphe*/
+}
+
+/* Section bienfaits du miel*/
+
+
+.widhtP2{
+    width: 30%;
 }
