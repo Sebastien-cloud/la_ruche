@@ -39,7 +39,7 @@ li{ /*annule les puces des listes*/
 }
 
 .container{
-    /*background-color: red*/
+    background-color: red;
     max-width: 1000px; /*largeur max que l'element ne depassera pas*/
     margin: auto;
     width: 100%;
@@ -89,6 +89,13 @@ h1{
 
 /* SECTION ENGAGEMENT*/
 
-.engagement{
+.titre{
     width: 50%;
+    background-color:green;
+}
+
+.sectionEngagement{
+    display: flex;
+    width: 100%;
+    background-color: aquamarine;
 }
