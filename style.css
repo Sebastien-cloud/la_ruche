@@ -104,6 +104,12 @@ h1{
 /* Section bienfaits du miel*/
 
 
-.widhtP2{
-    width: 30%;
+.widthP2{
+    width: 270px;
+}
+
+/* Section Produits*/
+
+.padding{
+    padding-bottom: 16px;
 }
